@@ -1,0 +1,13 @@
+{
+  "name": "simple-http2-server",
+  "version": "1.0.0",
+  "description": "The simplest http2 server with pure Node.js",
+  "main": "server.mjs",
+  "scripts": {
+    "dev": "node --watch --env-file=.env.development server.mjs",
+    "start": "node --env-file=.env server.mjs"
+  },
+  "keywords": [],
+  "author": "Nazarii Mural",
+  "license": "ISC"
+}
